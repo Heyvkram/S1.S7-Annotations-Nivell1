@@ -26,8 +26,8 @@ This exercise focuses on object-oriented programming principles, specifically in
 
 ## Technologies
 
-- Java JDK 22 (or specify your JDK version)
-- IntelliJ IDEA (or specify your IDE)
+- Java JDK 22 
+- IntelliJ IDEA 
 - Git
 - GitHub
 
