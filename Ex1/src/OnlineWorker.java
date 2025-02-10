@@ -1,12 +1,12 @@
 public class OnlineWorker extends Worker {
-    private final int INTERNET_COST = 50;
+    private static final int INTERNET_COST = 50;
 
-    public OnlineWorker(String name, String surename, int priceHour) {
-        super(name, surename, priceHour);
+    public OnlineWorker(String name, String surname, int priceHour) {
+        super(name, surname, priceHour);
     }
 
     @Override
-    protected int salary(int workedHours) {
+    public int salary(int workedHours) {
         return super.salary(workedHours) + INTERNET_COST;
     }
 }

@@ -1,12 +1,12 @@
 public class OfficeWorker extends Worker{
     private static int fuel = 120;
 
-    public OfficeWorker(String name, String surename, int priceHour) {
-        super(name, surename, priceHour);
+    public OfficeWorker(String name, String surname, int priceHour) {
+        super(name, surname, priceHour);
     }
 
     @Override
-    protected int salary(int workedHours) {
+    public int salary(int workedHours) {
         return super.salary(workedHours) + fuel;
     }
 }
