@@ -1,15 +1,15 @@
 public abstract class Worker {
     protected String name;
-    protected String surename;
+    protected String surname;
     protected int priceHour;
 
-    public Worker(String name, String surename, int priceHour) {
+    public Worker(String name, String surname, int priceHour) {
         this.name = name;
-        this.surename = surename;
+        this.surname = surname;
         this.priceHour = priceHour;
     }
 
-    protected int salary(int workedHours){
+    public int salary(int workedHours){
         int total = workedHours * priceHour;
         return total;
     }
